@@ -50,7 +50,7 @@ const Footer = () => {
                 className="text-blue-400 hover:text-blue-300 transition-colors duration-300 relative group"
                 whileHover={{ y: -2 }}
               >
-                Thorn Chorn
+                Khtis Santik
               </motion.a>
               <span className="text-gray-400">
                 © {new Date().getFullYear()}
@@ -59,7 +59,7 @@ const Footer = () => {
 
             {/* GitHub Link */}
             <motion.a
-              href="https://github.com/chornthorn/portfolio-template"
+              href="https://web.facebook.com/khtis.santik.2025"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors duration-300 group order-2 sm:order-none"
