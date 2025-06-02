@@ -119,7 +119,7 @@ const ContactInfo = () => {
           <h4 className="text-white mb-4">Follow Me</h4>
           <div className="flex space-x-4">
             <SocialLink
-              href="https://github.com/your-github"
+              href="https://github.com/Santikkh"
               icon={
                 <svg
                   className="w-5 h-5"
@@ -147,14 +147,14 @@ const ContactInfo = () => {
               }
             />
             <SocialLink
-              href="https://twitter.com/your-twitter"
+              href="https://web.facebook.com/khtis.santik.2025"
               icon={
                 <svg
                   className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                  <path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0" />
                 </svg>
               }
             />
