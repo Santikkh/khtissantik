@@ -45,8 +45,8 @@ const InterestCard = ({ interest, index }) => {
 
 const About = () => {
   const stats = [
-    { label: "Years Experience", value: "5+" },
-    { label: "Projects Completed", value: "50+" },
+    { label: "Years Experience", value: "2+" },
+    { label: "Projects Completed", value: "1+" },
     { label: "Technologies", value: "15+" },
     { label: "Happy Clients", value: "30+" },
   ];
@@ -60,8 +60,12 @@ const About = () => {
     { icon: "💡", name: "Problem Solving", desc: "Finding elegant solutions" },
     { icon: "🎨", name: "Design", desc: "Creating beautiful interfaces" },
     { icon: "🔄", name: "Agile", desc: "Iterative development" },
-    { icon: "🌐", name: "Web Performance", desc: "Optimizing for speed and efficiency" },
-    { icon: "🛡️", name: "Security", desc: "Building secure applications" }
+    {
+      icon: "🌐",
+      name: "Web Performance",
+      desc: "Optimizing for speed and efficiency",
+    },
+    { icon: "🛡️", name: "Security", desc: "Building secure applications" },
   ];
 
   return (

@@ -109,33 +109,55 @@ const Skills = () => {
   const skills = [
     {
       name: "Frontend Development",
-      level: 90,
-      tags: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux"],
+      level: 50,
+      tags: ["React", "Html", "Tailwind CSS", "CSS", "JavaScript"],
     },
     {
       name: "Backend Development",
-      level: 85,
-      tags: ["Node.js", "Express", "MongoDB", "PostgreSQL", "REST APIs"],
+      level: 45,
+      tags: ["PHP"],
     },
     {
       name: "UI/UX Design",
-      level: 80,
-      tags: ["Figma", "Adobe XD", "Responsive Design", "Prototyping"],
+      level: 60,
+      tags: ["Figma", "Adobe XD", "Responsive Design"],
     },
     {
-      name: "DevOps & Tools",
+      name: "Social Media Marketing",
       level: 75,
-      tags: ["Git", "Docker", "AWS", "CI/CD", "Linux"],
+      tags: ["Facebook", "Tiktok", "instagram", "Content Creation", "SEO"],
+    },
+    {
+      name: "Graphic Design",
+      level: 75,
+      tags: ["Adobe Photoshop", "Adobe Illustrator", "Corel Draw", "Canvas"],
+    },
+    {
+      name: "Video Editing",
+      level: 45,
+      tags: ["Capcut", "Adobe Premuim"],
     },
   ];
 
   const technologies = [
+    { name: "HTML", icon: "🌐" },
+    { name: "CSS", icon: "🎨" },
+    { name: "JavaScript", icon: "📜" },
+    { name: "Next.js", icon: "⚛️" },
+    { name: "Tailwind CSS", icon: "🌊" },
+    { name: "Bootstrap", icon: "🟦" },
     { name: "React", icon: "⚛️" },
     { name: "Node.js", icon: "🟢" },
     { name: "TypeScript", icon: "📘" },
-    { name: "MongoDB", icon: "🍃" },
-    { name: "AWS", icon: "☁️" },
-    { name: "Docker", icon: "🐳" },
+    { name: "Tailwind CSS", icon: "🌊" },
+    { name: "Figma", icon: "🎨" },
+    { name: "Adobe XD", icon: "🖌️" },
+    { name: "PHP", icon: "🐘" },
+    { name: "MySQL", icon: "🗄️" },
+    { name: "Firebase", icon: "🔥" },
+    { name: "Adobe Photoshop", icon: "🖼️" },
+    { name: "Adobe Illustrator", icon: "🖌️" },
+    { name: "Capcut", icon: "✂️" },
   ];
 
   return (
